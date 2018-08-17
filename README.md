@@ -2,7 +2,7 @@
 
 # gaarayx's blog
 
-1. [test](./my_blog/test_blog.md “test”)
+1. [test](./my_blog/test_blog.md)
 
 You can use the [editor on GitHub](https://github.com/gaarayx/gaarayx.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
