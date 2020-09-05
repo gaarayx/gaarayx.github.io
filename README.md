@@ -4,6 +4,10 @@
 
 1. [test](./my_blog/test_blog.md)
 
+# Life
+## plant
+[文竹](./my_blog/Life/plant/文竹.md)
+
 You can use the [editor on GitHub](https://github.com/gaarayx/gaarayx.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
