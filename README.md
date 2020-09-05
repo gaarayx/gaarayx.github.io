@@ -2,11 +2,28 @@
 
 # gaarayx's blog
 
-1. [test](./my_blog/test_blog.md)
+
+
+# Study
+## vim
+[vimtutor_learning_note](./my_blog/Study/vim/vimtutor_learning_note.md)
 
 # Life
 ## plant
 [文竹](./my_blog/Life/plant/文竹.md)
+
+
+
+
+
+
+
+
+
+
+
+
+1. [test](./my_blog/test_blog.md)
 
 You can use the [editor on GitHub](https://github.com/gaarayx/gaarayx.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
