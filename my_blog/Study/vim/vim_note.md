@@ -46,6 +46,19 @@ E714: List required
 原因：~/.viminfo文件因所有者为root，非当前账号。
 修复方案：用chown和chgrp将文件所有者改为本账号。
 
+输入vim后，报错：
+```
+Error detected while processing function SpaceVim#welcome..neobundle#autoload#_command..vimfiler#init#_command..vimfiler#init#_start..<SNR>171_create_vimfiler_buffer..vimfiler#handler#_event_handler..<SNR>197
+_on_BufReadCmd..vimfiler#init#_vimfiler_directory..vimfiler#view#_force_redraw_all_vimfiler..vimfiler#view#_force_redraw_screen..<SNR>183_writefile:
+line    3:
+E482: Can't create file /home/slp/.cache/vimfiler//files/=+home=+slp=+
+Press ENTER or type command to continue
+Error detected while processing function SpaceVim#welcome:
+line   19:
+E171: Missing :endif
+```
+原因：同上，/home/slp/.cache/vimfiler文件夹的所有者为root。
+修复方案：同上。
 
 # 2. 快捷键
 
