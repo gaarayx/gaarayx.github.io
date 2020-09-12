@@ -1,5 +1,10 @@
 # vim使用笔记
 
+# 参考资料
+
+交互式学习vim：  https://www.openvim.com/
+快捷键：  https://vim.rtorr.com/lang/zh_cn
+
 # 1. 环境配置
 
 ## 1.1 secureCRT
