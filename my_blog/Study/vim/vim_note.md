@@ -1,5 +1,10 @@
 # vim使用笔记
 
+# 环境配置
+
+secureCRT的ubuntu配色方案：
+https://blog.csdn.net/lurebreast/article/details/107670902
+
 # 搜索相关
 
 | 作用         | 操作                    |
@@ -32,4 +37,3 @@ line   18:
 E108: No such variable: "g:_spacevim_plugin_layer"
 Press ENTER or type command to continue
 ```
-  
