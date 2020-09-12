@@ -7,9 +7,9 @@
 secureCRT的ubuntu配色方案：
 https://blog.csdn.net/lurebreast/article/details/107670902
 
-## vim安装
+## 1.2 vim安装
 
-### 1.2 ubuntu12如何安装vim 7.4
+### ubuntu12如何安装vim 7.4
 
 安装：
 sudo add-apt-repository ppa:nmi/vim-snapshots
