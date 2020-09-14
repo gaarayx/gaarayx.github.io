@@ -106,3 +106,18 @@ ctrl+w c/q/o
 c: 关闭当前子屏
 q: 关闭当前子屏，若为最后一个，则退出vim
 o: 仅保留当前子屏
+
+# 3. 插件
+
+## 3.1 vim-plug
+安装：
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+命令：
+检查状态    :PlugStatus
+安装配置文件的插件    :PlugInstall
+更新插件：    :PlugUpdate
+查看插件更新内容：    :PlugDiff (在每个段落上按x可将插件回滚)
+删除插件：    :PlugClean （注释掉vim配置文件中的插件后，执行该命令）
+升级vim-plug本身：    :PlugUpgrade
+
