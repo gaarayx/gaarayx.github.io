@@ -113,11 +113,18 @@ o: 仅保留当前子屏
 安装：
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+配置插件：
+修改vim配置文件：
+call plug#begin('~/.vim/plugged')
+Plug 'XXX/XXX' (Note: plugin git repo name)
+call plug#end()
+
+
 命令：
-检查状态    :PlugStatus
-安装配置文件的插件    :PlugInstall
-更新插件：    :PlugUpdate
-查看插件更新内容：    :PlugDiff (在每个段落上按x可将插件回滚)
-删除插件：    :PlugClean （注释掉vim配置文件中的插件后，执行该命令）
-升级vim-plug本身：    :PlugUpgrade
+:PlugStatus    #检查状态
+:PlugInstall    #安装配置文件的插件
+:PlugUpdate    #更新插件
+:PlugDiff    #查看插件更新内容(在每个段落上按x可将插件回滚)
+:PlugClean    #删除插件（注释掉vim配置文件中的插件后，执行该命令）
+:PlugUpgrade    #升级vim-plug本身
 
