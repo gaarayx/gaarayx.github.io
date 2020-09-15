@@ -133,3 +133,27 @@ call plug#end()
 :PlugClean    #删除插件（注释掉vim配置文件中的插件后，执行该命令）
 :PlugUpgrade    #升级vim-plug本身
 ```
+## 3.2 ctags
+
+安装：
+sudo apt-get install ctags
+
+生成tag：
+ctags -R -o .tags
+
+.vimrc配置：
+set tags=./.tags;,.tags
+
+命令：
+ctrl + ]  # 跳转到光标指向的定义
+ctrl + t  # 调到tag栈的上个tag
+:tag 函数名/结构体名  # 跳转到定义
+
+## 3.3 cscope
+
+安装：
+sudo apt-get install cscope
+
+生成tag：
+cscope -R  -f .cscope.out
+K
